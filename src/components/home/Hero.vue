@@ -27,5 +27,26 @@
 </template>
 
 <script setup>
+import { onMounted, ref } from "vue";
 import bgImage from "../../assets/images/bg_1.jpg"
+const isVisible = ref(false);
+
+onMounted(() => {
+    setTimeout(() => {
+        isVisible.value = true;
+    }, 100)
+})
 </script>
+
+<style>
+ .content-wrapper {
+    transform: translateY(80px);
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+ .content-wrapper.animate-in {
+    transform: translateY(0);
+    opacity: 1;
+}
+</style>
