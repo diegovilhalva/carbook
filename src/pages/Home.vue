@@ -6,12 +6,14 @@
  <CallToAction />
  <TestimonialsSection /> 
  <Blogs />
+ <Stats/>
 </template>
 
 <script setup>
 import AboutUs from '../components/composables/AboutUs.vue';
 import CallToAction from '../components/composables/CallToAction.vue';
 import ServiceList from '../components/composables/ServiceList.vue';
+import Stats from '../components/composables/Stats.vue';
 import Blogs from '../components/home/Blogs.vue';
 import FeatureSection from '../components/home/FeatureSection.vue';
 import Hero from '../components/home/Hero.vue';
