@@ -6,6 +6,8 @@ import About from "../pages/About.vue";
 import Services from "../pages/Services.vue";
 import Cars from "../pages/Cars.vue";
 import CarDetails from "../pages/CarDetails.vue";
+import Blog from "../pages/Blog.vue";
+import BlogDetails from "../pages/BlogDetails.vue";
 
 
 
@@ -43,6 +45,16 @@ const routes = [
                 path:"/car/:id",
                 name:"car",
                 component:CarDetails
+            },
+            {
+                path:"/blog",
+                name:"blog",
+                component:Blog
+            },
+            {
+                path:"/blog/:id",
+                name:"blog details",
+                component:BlogDetails
             }
         ]
     }
