@@ -1,6 +1,6 @@
 <template>
   <BgContainer
-    title="Services"
+    title="Serviços"
     bgImage="bg_3.jpg"
     :links="[
       { text: 'Início', to: '/' },

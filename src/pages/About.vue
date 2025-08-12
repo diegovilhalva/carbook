@@ -2,7 +2,7 @@
   <div>
     <!-- Seção de cabeçalho -->
     <BgContainer
-      title="About"
+      title="Sobre"
       bgImage="bg_3.jpg"
       :links="[
         { text: 'Início', to: '/' },
