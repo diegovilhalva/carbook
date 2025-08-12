@@ -4,6 +4,7 @@ import HomePage from "../pages/Home.vue";
 import Pricing from "../pages/Pricing.vue";
 import About from "../pages/About.vue";
 import Services from "../pages/Services.vue";
+import Cars from "../pages/Cars.vue";
 
 
 const routes = [
@@ -30,6 +31,11 @@ const routes = [
                 path:"/services",
                 name:"services",
                 component:Services
+            },
+            {
+                path:"/cars",
+                name:"cars",
+                component:Cars
             }
         ]
     }

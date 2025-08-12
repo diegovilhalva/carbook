@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-80 h-full mx-auto bg-white rounded-sm overflow-hidden shadow-md m">
-    <img :src="getImage(image)" alt="" class="w-full h-full object-cover" />
+    <img :src="getImage(image)" alt="" class="w-full  object-cover" />
     <div class="p-6 space-y-2">
       <h3 class="text-xl font-semibold text-gray-900 truncatr">{{ name }}</h3>
       <div class="flex justify-between items-center">
