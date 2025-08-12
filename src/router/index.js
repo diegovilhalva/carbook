@@ -3,6 +3,7 @@ import DefaultLayout from "../components/layout/DefaultLayout.vue";
 import HomePage from "../pages/Home.vue";
 import Pricing from "../pages/Pricing.vue";
 import About from "../pages/About.vue";
+import Services from "../pages/Services.vue";
 
 
 const routes = [
@@ -24,6 +25,11 @@ const routes = [
                 path:"/about",
                 name:"about",
                 component:About
+            },
+            {
+                path:"/services",
+                name:"services",
+                component:Services
             }
         ]
     }
